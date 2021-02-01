@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="flex-container">
+      <div>
+        <img src="./static/logo.jpg" alt="logo">
+      </div>
+      <div>
+        <button class="bouton">Connexion</button>
+      </div>
+  </div>
+  <div class="head">
+    <div class="titre">
+      <h1>Prenez un rendez-vous et réservez votre moniteur</h1>
+      <h4>Lorem ipsum dolor sit amet consectetur adipisicing</h4>
+    </div>
+    <div class="champ">
+      <input class="input" type="text">
+      <button class="b_search">RECHERCHE</button>
+    </div>
+  </div>
+  <div class="corps">
+    <div class="who">
+      <img src="./static/dot.jpg" alt="dot">
+      <h2>QUI SOMMES-NOUS ?</h2>
+    </div>
+    <div class="first_p">
+      <div>
+        <img class="img_car" src="./static/car.jpg" alt="car">
+      </div>
+      <div class="para1">
+        <p>Lorem ipsum dolor sit amet<br> consectetur adipisicing elit.<br> Facere temporibus impedit<br> aliquid commodi.</p>
+      </div>
+    </div>
+      <div class="who">
+      <img src="./static/dot.jpg" alt="dot">
+      <h2>REJOIGNEZ-NOUS</h2>
+    </div>
+    <div class="check">
+      <div class="check_M">
+        <h2>S'inscrire en tant que<br> Technicien moniteur</h2>
+        <button class="b_mo">MONITEUR</button>
+      </div>
+      <div class="check_E">
+        <h2>Commandez une course<br> Réservez un moniteur</h2>
+        <button class="b_el">Elèves</button>
+      </div>
+    </div>
+    <div class="logo2">
+      <img class="img_logo2" src="./static/logo2.jpg" alt="logo2">
+    </div>
+    <div class="rezo">
+      <img class="img_rezo" src="./static/rezo.jpg" alt="rezo">
+    </div>
+    <footer>
+      <p>Copyright</p>
+      <p>Conditions d'utilisation</p>
+      <p>Politique de confidentialité</p>
+    </footer>
+  </div>
+</body>
+</html>
+<style>
+body {
+  margin: 0 auto;
+  font-family: Helvetica, sans-serif;
+}
+.corps {
+  background-color: #f6f4f5;
+}
+.flex-container {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-around;
+  background-color: #01bea6;
+  margin: 0;
+}
+h1 {
+  margin: 0;
+ }
+h4 {
+  color: black;
+}
+.titre {
+  padding-top: 180px;
+  margin: 0;
+  text-align: center;
+  color: white;
+}
+.champ {
+  padding-top: 50px;
+  text-align: center;
+}
+.input {
+  border-radius: 8px;
+  width: 20%;
+  height: 50px;
+  border: none;
+  margin: 0;
+}
+.b_search {
+  border-radius: 8px;
+  border: none;
+  width: 10%;
+  height: 50px;
+  margin: 0;
+  background-color: black;
+  color: white;
+}
+.nav-content {
+  flex-wrap: wrap;
+}
+.first_p {
+  display: flex;
+  /*justify-content: center;*/
+  padding-left: 320px;
+}
+.img_car {
+  width: 200%;
+}
+.para1 {
+  margin-left: 300px;
+  margin-top: 130px;
+  font-size: 30px;
+  background-color: white;
+  border-radius: 12px;
+  width: 35%;
+  height: 200px;
+  text-align:center;
+}
+.bouton {
+  margin-top: 45%;
+  border-radius: 8px;
+  width: 220%;
+  height: 40%;
+  border: none;
+}
+.head {
+  margin: 0;
+  background-color: #01bea6;
+  height: 700px;
+}
+.who {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+.check {
+  display: flex;
+  justify-content: center;
+}
+.check_M {
+  margin-right: 150px;
+}
+.b_mo {
+  font-size: 24px;
+  background-color: #01bea6;
+  color: white;
+  border: none;
+  text-align: center;
+  border-radius: 8px;
+  width: 120%;
+  height: 40%;
+}
+.b_el {
+  font-size: 24px;
+  border-width: 3px;
+  border-color: #01bea6;
+  border-radius: 8px;
+  width: 120%;
+  height: 40%;
+}
+.logo2 {
+  margin-top: 200px!important;
+  text-align: center;
+  margin: auto;
+}
+.img_logo2 {
+  width: 20%;
+}
+.rezo {
+  margin-top: 20px!important;
+  text-align: center;
+  margin: auto;
+}
+.img_rezo {
+  width: 20%;
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+}
+</style>
