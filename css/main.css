@@ -282,6 +282,9 @@ h1 {
 h4 {
   color: black;
 }
+.logo1 {
+  width: 50%;
+}
 .titre {
   padding-top: 180px;
   margin: 0;
@@ -317,7 +320,7 @@ h4 {
   padding-left: 320px;
 }
 .img_car {
-  width: 200%;
+  width: 50%;
 }
 .para1 {
   margin-left: 300px;
